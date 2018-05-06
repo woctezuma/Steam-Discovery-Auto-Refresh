@@ -43,6 +43,10 @@
             setTimeout(function() {
               elB.dispatchEvent (evt);                
              }, 3000);
+
+	    setTimeout(function() {
+		location.reload();
+	    }, 5000);
             
 	}
 	catch(err) {
